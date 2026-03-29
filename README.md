@@ -19,7 +19,7 @@ Node-count baseline accuracy: 50% — the GNN learned real structural patterns.
 
 ## How It Works
 
-1. Parses Verilog netlists into graphs — nodes are signals, edges are connections
+1. Parses Verilog netlists into graphs. Nodes are signals, edges are connections
 2. Extracts 19 features per node including degree, type, and graph-level context
 3. Runs a 3-layer Graph Convolutional Network with global mean pooling
 4. Classifies each chip as clean or Trojan-infected
